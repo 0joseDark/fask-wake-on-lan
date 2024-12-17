@@ -13,4 +13,11 @@ Certifique-se de instalar os módulos necessários antes de executar:
 pip install wakeonlan flask
 ``` 
 
+Explicação passo a passo:
+1. A aplicação Flask serve uma página web para enviar pacotes Wake-on-LAN remotamente.
+2. A interface gráfica em tkinter permite configurar o host e porta do Flask, além de enviar pacotes Wake-on-LAN localmente.
+3. O campo de log exibe mensagens sobre ações realizadas e salva-as no arquivo "note.log".
+4. O servidor Flask é executado em uma thread separada para não bloquear a interface gráfica.
+5. O botão "Despertar PC" permite enviar o pacote mágico diretamente da GUI.
+- - Press CTRL+C to quit
 
