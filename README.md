@@ -11,7 +11,8 @@ Certifique-se de instalar os módulos necessários antes de executar:
 
 ```bash
 pip install wakeonlan flask
-``` 
+```
+![GUI and web page](https://github.com/0joseDark/fask-wake-on-lan/blob/main/image/image.jpg)
 
 Explicação passo a passo:
 1. A aplicação Flask serve uma página web para enviar pacotes Wake-on-LAN remotamente.
